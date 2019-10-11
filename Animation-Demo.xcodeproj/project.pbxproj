@@ -13,6 +13,10 @@
 		77A04289234A8047003C9E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A04288234A8047003C9E00 /* Assets.xcassets */; };
 		77A0428C234A8047003C9E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A0428B234A8047003C9E00 /* Preview Assets.xcassets */; };
 		77A0428F234A8047003C9E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0428D234A8047003C9E00 /* LaunchScreen.storyboard */; };
+		77A04297234A838F003C9E00 /* SpringAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A04296234A838F003C9E00 /* SpringAnimationView.swift */; };
+		77A04299234A8A08003C9E00 /* NotificationSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A04298234A8A08003C9E00 /* NotificationSpringAnimation.swift */; };
+		77A0429B234A8C9B003C9E00 /* CombinedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0429A234A8C9B003C9E00 /* CombinedAnimation.swift */; };
+		77AE8FAC23509AAE00235BA4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE8FAB23509AAE00235BA4 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		77A0428B234A8047003C9E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77A0428E234A8047003C9E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A04290234A8047003C9E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A04296234A838F003C9E00 /* SpringAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationView.swift; sourceTree = "<group>"; };
+		77A04298234A8A08003C9E00 /* NotificationSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSpringAnimation.swift; sourceTree = "<group>"; };
+		77A0429A234A8C9B003C9E00 /* CombinedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedAnimation.swift; sourceTree = "<group>"; };
+		77AE8FAB23509AAE00235BA4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				77A04282234A8045003C9E00 /* AppDelegate.swift */,
 				77A04284234A8045003C9E00 /* SceneDelegate.swift */,
 				77A04286234A8045003C9E00 /* ContentView.swift */,
+				77A04296234A838F003C9E00 /* SpringAnimationView.swift */,
+				77A04298234A8A08003C9E00 /* NotificationSpringAnimation.swift */,
+				77AE8FAB23509AAE00235BA4 /* SwiftUIView.swift */,
 				77A04288234A8047003C9E00 /* Assets.xcassets */,
 				77A0428D234A8047003C9E00 /* LaunchScreen.storyboard */,
 				77A04290234A8047003C9E00 /* Info.plist */,
 				77A0428A234A8047003C9E00 /* Preview Content */,
+				77A0429A234A8C9B003C9E00 /* CombinedAnimation.swift */,
 			);
 			path = "Animation-Demo";
 			sourceTree = "<group>";
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A04299234A8A08003C9E00 /* NotificationSpringAnimation.swift in Sources */,
+				77AE8FAC23509AAE00235BA4 /* SwiftUIView.swift in Sources */,
+				77A0429B234A8C9B003C9E00 /* CombinedAnimation.swift in Sources */,
 				77A04283234A8045003C9E00 /* AppDelegate.swift in Sources */,
 				77A04285234A8045003C9E00 /* SceneDelegate.swift in Sources */,
+				77A04297234A838F003C9E00 /* SpringAnimationView.swift in Sources */,
 				77A04287234A8045003C9E00 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

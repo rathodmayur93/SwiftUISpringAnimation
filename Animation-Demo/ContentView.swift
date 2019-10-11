@@ -9,8 +9,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showDetail : Bool = false
+    
     var body: some View {
-        Text("Hello World")
+        VStack {
+            
+            Button("Press Me"){
+                self.showDetail.toggle()
+            }
+            
+            
+            HStack{
+                Text(self.showDetail ? "Hide Details" : "Show Details")
+                
+                //Image(systemName: self.showDetail ? "chevron.up.square" : "chevron.down.square")
+                
+                //Animate the image
+                Image(systemName: "chevron.up.square")
+                    .rotationEffect(.degrees(self.showDetail ? 0 : 180))
+                    .animation(.default)
+            }
+            
+            /*
+                if showDetail{
+                    HStack {
+                        Text("Hide Details")
+                        Image(systemName: "chevron.up.square")
+                    }
+                    
+                }else{
+                    HStack{
+                        Text("Show Details")
+                        Image(systemName: "chevron.down.square")
+                    }
+                }
+            */
+        }
     }
 }
 
